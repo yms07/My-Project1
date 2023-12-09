@@ -1,0 +1,160 @@
+*{
+    background-color: rgb(230, 222, 188);
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(230, 222, 188);
+    padding: 10px 60px;
+    color: #030303;
+}
+.nav-links {
+    list-style: none;
+    display: flex;
+    background-color:rgb(230, 222, 188) ;
+}
+
+.nav-links li {
+    margin-right: 20px;
+    background-color:rgb(230, 222, 188) ;
+    
+
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #252222;
+    transition: color 0.3s ease;
+    background-color:rgb(230, 222, 188) ;
+    margin-right: 20px;
+    align-items: center;
+    font-size:large;
+   
+    
+}
+
+.nav-links a:hover {
+    color: #0a0a0a;
+    font-weight: bold;
+}
+
+#aboutus{
+    color: rgb(255, 255, 255);
+    font-size:xx-large;
+  align-items: center;
+  background-color: #ac949460;
+  text-align:center;
+  height:560px;
+  width:1850px;
+  down
+    
+}
+#aboutuspara{
+    color: rgb(255, 255, 255);
+    font-size: medium;
+    align-items: center;
+    background-color: #2e2e2e00;
+    text-align:center
+}
+button{
+    background-color: yellow;
+    color: rgb(0, 0, 0);
+}
+#headline{
+    text-align: center;
+    background-color: rgb(230, 222, 188) ;
+    
+}
+.container{
+    height:500px;
+    background-color: rgb(230, 222, 188) ;
+    text-align: center;
+    position:relative;
+}
+.box1{
+    width:1000px;
+    height:400px;
+    background-color:rgb(230, 222, 188);
+    position: absolute;
+    bottom:50;
+    left:0;
+}
+.box2{
+    width:1000px;
+    height:400px;
+    background-color:rgb(230, 222, 188);
+    position: absolute;
+    bottom:50;
+    right:0;
+}
+#head{
+font-size: larger;
+text-align: left;
+}
+#para{
+font-size: large;
+text-align: left;
+
+}
+#head1{
+    font-size: xx-large;
+    text-align: center;
+    }
+    #para1{
+    font-size: large;
+    text-align: center;
+    
+    }
+#box0{
+    background-color: #030303;
+    position: absolute;
+    left:0;
+    bottom:50;
+    width:1000px;
+    height:400px;
+    color: aliceblue;
+}
+#box01{
+    background-color: #e9e7e7;
+    position: absolute;
+    right:0;
+    bottom:50;
+    width:1000px;
+    height:400px;
+}
+#contactheading{
+    
+    text-align: left;
+    background-color: #030303;
+    font-size: xx-large;
+}
+#name{
+    text-align: left;
+    background-color: #030303;
+    color: gray;
+
+}
+#placeholder{
+    color: rgb(161, 161, 161);
+}
+input[type=text]{
+padding:12px;
+width:300px;
+border:1px solid #e9e7e7;
+border-radius: 4px;
+background-color: rgb(56, 56, 56);
+color: #797979;
+font-weight: bold;
+position: absolute;
+left:0;
+
+
+}
+#btn{
+    background-color: yellow;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    left:0;
+}
